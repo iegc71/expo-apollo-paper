@@ -1,7 +1,23 @@
 {
- "react-native": {
-  "packager": {
-    "port": 19001
-  }
- }
+  "react-native": {
+    "packager": {
+      "port": 19001
+    }
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true
+  },
+  "eslint.packageManager": "yarn",
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "prettier.withNodeModules": true,
+  "prettier.useTabs": true,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": ".prettierrc",
+  "prettier.prettierPath": "./node_modules/prettier"
 }
