@@ -5,6 +5,10 @@
     "baseUrl": ".",
     "paths": {
       "*": ["src/*"],
+      "assets": ["src/assets/*"],
+      "components": ["src/components/*"],
+      "elements": ["src/elements/*"],
+      "navigation": ["src/navigation/*"],
       "utils": ["src/utils/*"]
     }
   }
